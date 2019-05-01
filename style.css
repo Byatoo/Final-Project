@@ -1,5 +1,4 @@
-/*Global Styles
-    -----------------------*/
+
 
     body {
       font-family: 'Open Sans', sans-serif;
@@ -37,7 +36,7 @@
       font-weight: 400;
   } */
   a{
-      color:#EF233C;
+      color:rgb(43, 31, 224);
   }
   a:link, a:visited {
     text-decoration: none;
@@ -61,6 +60,8 @@
       background-size: cover;
       margin-left: auto;
       margin-right: auto;
+      top: 32px;
+
 
 
   }
@@ -80,6 +81,7 @@
 .contact{
   font-family: 'Caveat', cursive;
   font-size: 35px;
+  color: rgb(244, 248, 252);
 }
   /* .profile-img{
       background: cover;
@@ -91,8 +93,26 @@
       text-align: center;
       background:  #2B2042;
       position: relative;
-      bottom: -44px;
+      bottom:-16px;
+
   }
+.linkFoort{
+  /* color:rgb(223, 31, 31); */
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+.fa-linkedin {
+  color: rgb(175, 22, 22);
+  
+}
+.fas{
+  color: rgb(250, 251, 252);
+}
+.fa-facebook{
+  
+  color: rgb(22, 76, 175);
+}
+
 
   
 

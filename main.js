@@ -22,6 +22,8 @@ $(document).ready(function(){
             $('#result').append($("<h2/>").text('Company Name:'+ " " + result.results[i].company.name))
             $('#result').append($("<h3/>").text('Job Title:'+ " " + result.results[i].name))
             $('#result').append($("<p/>").text('Location:'+ " " + result.results[i].locations[0].name))
+            $('#result').append($("<a/>").text('Apply Here:'+ " " + result.results[i].refs.landing_page))
+
           }
         
        // return location.locations[0].name !==  "Flexible / Remote";
