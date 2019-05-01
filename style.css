@@ -1,0 +1,99 @@
+/*Global Styles
+    -----------------------*/
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0 auto;
+      
+  }
+  .header{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 75px;
+
+  }
+  #city{
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+  }
+  #state{
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+
+  }
+  button{
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    margin-top: 28px;
+
+
+  }
+  /* h1{
+      font-family: 'Caveat', cursive;
+      font-weight: 400;
+  } */
+  a{
+      color:#EF233C;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  a:hover{
+      text-decoration: none;
+  }  
+  
+  /*Header and Footer
+      -----------------------*/
+  header, footer{
+      
+      color: #8D99AE ;
+  }
+  /* header*/
+  header{
+      position: relative;
+      background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnYiHFhVBTauXG8OZa8GSrLiqjxaTaU0r4JaEi8txVvWcmq0LPA) no-repeat;
+      width: 30vw;;
+      height:30vh;
+      background-size: cover;
+      margin-left: auto;
+      margin-right: auto;
+
+
+  }
+.search-container{
+  position: relative;
+  left: 450px;
+}
+#result{
+  position: relative;
+  left: 10px;
+  border-radius: 15px ;
+  /* border: 3px solid black; */
+  /* background-color: lightgray; */
+  padding: 22px;
+  
+}
+.contact{
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+}
+  /* .profile-img{
+      background: cover;
+      width: 100%;
+
+  } */
+  /*footer*/
+  footer{
+      text-align: center;
+      background:  #2B2042;
+      position: relative;
+      bottom: -44px;
+  }
+
+  
+
+  
